@@ -1,0 +1,104 @@
+/* BIG TABLETS TO 1200PX(width smaller than 1140px row */
+@media only screen and (max-width: 1200px)
+{
+	.projects-box
+	{
+		width: 100%;
+		padding: 0 2%;
+	}
+	
+	.row
+	{
+		padding: 0 2%;
+	}
+}
+
+/*SMALL TABLETS TO BIG TABLETS: from 768 to 1023px*/
+@media only screen and (max-width: 1023px)
+{
+.row,
+.projects-box{padding: 0 4%;}
+.col
+{
+	width: 100%;
+	margin: 0 0 4% 0;
+	
+}
+body{font-size: 18px;}
+.name-contact{width: 90%;}
+.main-nav li
+{
+	margin-top: 2px;
+	font-size: 120%;
+}
+header{ padding: 5px 5px;}
+section{ padding: 5px 5px;}
+education{font-size: 90%;}
+.languages,
+.my-skills {font-size: 50%;}
+.school-projects{height: 90vh}
+school-projects
+{
+	font-weight: 300;
+	width: 100%;
+	margin: 0 0;
+	display: block;}
+}
+.projects-box p{font-size: 120%}
+.projects-box h3{font-size: 140%}
+.work-places p{font-size: 120%;
+margin-top: 15px;
+font-weight: 300;}
+
+/*SMALL PHONES TO SMALL TABLETS: from 481 to 767px*/
+@media only screen and (max-width: 767px)
+{
+	body{font-size: 16px;}
+	h2{font-size: 200%;}
+	section{padding: 30px 0;}
+	.mobile-nav-icon{display: inline-block;}
+	.main-nav
+	{
+		display: none;
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+		font-size: 90%;
+	}
+	.main-nav li{display: block;}
+	.main-nav li a:link,
+	.main-nav li a:visited
+	{
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+	.sticky .main-nav{margin-top: 10px;}
+	.sticky .mobile-nav-icon ion-icon{margin-top: 10px;}
+	.sticky .mobile-nav-icon ion-icon{color: #555;}
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {padding: 10px 0;}
+	
+	.skills ul:last-of-type{
+		margin-bottom: 20px;
+	}
+	.skills{height: 100vh;}
+	.school-projects{height: 110vh;}
+	.projects-box
+	{
+		margin: 0;
+		padding: 4px;
+		font-size: 100%;
+	}
+	.education .row{text-align: center;}
+	.education ion-icon{margin-left: 45%;}
+}
+
+/*SMALL PHONES: from 0 to 480px*/
+@media only screen and (max-width: 480px)
+{
+	section
+	{padding: 25px 0;}
+}

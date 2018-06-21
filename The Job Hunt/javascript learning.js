@@ -1,0 +1,1 @@
+document.getElementById('title').innerHTML ='Displaying JavaScript in web pages';
